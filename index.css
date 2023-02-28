@@ -1,0 +1,61 @@
+@font-face { font-family: BasqueSmileDemo; 
+    src: url('/font/BasqueSmileDemo.ttf'); } 
+*{
+    box-sizing: border-box;
+    font-family: BasqueSmileDemo;
+    font-weight: bold;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+.wrapper{
+    padding: 2em;
+    margin: 0 auto;
+
+}
+.content{
+    display: block;
+   
+    
+    
+
+}
+.wrapp-section{
+padding: 1em;
+}
+
+
+.section{
+    position: relative;
+    float:left;
+    background-color:#868686;
+    padding: 1em 1em;
+    border: 2px solid black;
+    margin:1em 1em;
+
+}
+
+@media (min-width: 992px) {
+    .section{
+        width: 33.3%;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width:991px) {
+    .section{
+        width: 49%;
+    }
+
+}
+
+@media (max-width:767px) {
+    .section{
+        width: 99%;
+    }
+
+}
