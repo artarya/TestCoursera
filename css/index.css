@@ -12,16 +12,12 @@
     padding: 2em;
 }
 .wrapper{
-    padding: 2em;
+    padding: 1em 1em;
     margin: 0 auto;
 
 }
 .content{
     display: block;
-   
-    
-    
-
 }
 .wrapp-section{
 padding: 1em;
@@ -34,13 +30,13 @@ padding: 1em;
     background-color:#868686;
     padding: 1em 1em;
     border: 2px solid black;
-    margin:1em 1em;
+   
 
 }
 
 @media (min-width: 992px) {
     .section{
-        width: 33.3%;
+        width: 31%;
     }
 
 }
